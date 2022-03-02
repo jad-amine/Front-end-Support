@@ -9,7 +9,7 @@ console.log("IF - ELSE");
         console.log("not b or empty")
     }
 
-
+ 
 console.log("SWITCH loop");
 // this is a "SWITCH" statement
     var bot = "johny";
