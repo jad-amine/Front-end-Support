@@ -1,15 +1,11 @@
-console.log("IF - ELSE");
-// This is a conditional statement "IF ELSE"
-    var letter = "B";
-    if (letter== ""){
-        console.log("empty string")
-    } else if (letter== "B"){
-        console.log("this is B")
-    } else {
-        console.log("not b or empty")
-    }
 
- 
+var colors = ["red", "blue", "green"];
+colors.forEach(function(color) {
+    console.log(color);
+});
+
+//
+
 console.log("SWITCH loop");
 // this is a "SWITCH" statement
     var bot = "johny";
@@ -26,6 +22,17 @@ console.log("SWITCH loop");
             console.log("all wrong");
     }
 
+//
+console.log("IF - ELSE");
+// This is a conditional statement "IF ELSE"
+    var letter = "B";
+    if (letter== ""){
+        console.log("empty string")
+    } else if (letter== "B"){
+        console.log("this is B")
+    } else {
+        console.log("not b or empty")
+    }
 
 console.log("For loop")
 // This is a "FOR" loop
